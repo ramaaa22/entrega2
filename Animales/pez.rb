@@ -1,0 +1,2 @@
+class Pez < Animal
+end

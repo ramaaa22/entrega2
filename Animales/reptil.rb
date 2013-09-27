@@ -1,0 +1,2 @@
+class Reptil < Animal
+end

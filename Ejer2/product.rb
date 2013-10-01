@@ -2,10 +2,10 @@
 
 
 class Product
-attr_accessor :cod, :name, :price
+attr_accessor :code, :name, :price
 
-def initialize(cod,name,price)
-	@cod=cod
+def initialize(code,name,price)
+	@code=code
 	@name=name
 	@price=price.to_i
 end

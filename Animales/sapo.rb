@@ -1,3 +1,5 @@
+require_relative 'anfibio'
+
 class Sapo < Anfibio
 
 def saltar

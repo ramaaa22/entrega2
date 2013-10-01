@@ -1,3 +1,5 @@
+require_relaive 'ave'
+
 class Pinguino < Ave
 
 def caminar
@@ -8,3 +10,4 @@ def nadar
 	puts "nado como pinguino"
 end
 
+end

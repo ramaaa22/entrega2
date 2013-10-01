@@ -1,3 +1,6 @@
+require_relative 'pez'
+
+
 class Tiburon < Pez
 
 def nadar

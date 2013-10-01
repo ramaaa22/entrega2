@@ -1,3 +1,5 @@
+require_relative 'mamifero'
+
 class Perro < Mamifero
 
 def caminar
@@ -8,3 +10,4 @@ def ladrar
 	puts "ladro"
 end
 
+end

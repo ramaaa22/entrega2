@@ -1,3 +1,5 @@
+require_relative 'ave'
+
 class Aguila < Ave
 
 def volar
@@ -6,4 +8,6 @@ end
 
 def caminar
 	puts "camino como aguila"
+end
+
 end

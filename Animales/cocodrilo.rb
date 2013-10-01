@@ -1,3 +1,5 @@
+require_relative 'reptil'
+
 class Cocodrilo < Reptil
 
 def caminar

@@ -1,3 +1,5 @@
+require_relative 'serpiente'
+
 class Boa < Serpiente
 
 def constriccion

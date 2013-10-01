@@ -1,27 +1,27 @@
 #!/usr/bin/env ruby
 
 class Purchase
-attr_accessor :list, :index, :total
+attr_accessor :products, :total
 
 def initialize
-	@list=[]
+	@products=[]
 	@total=0
 end
 
 def add(product)
-	@list << product
+	@products << product
 	@total= @total + product.price
 end
 
 def delete(product)
-	@list.delete(product)
+	@products.delete(product)
 
 end
 
 
 
 def cantItems
-	@list.length
+	@products.length
 end
 
 def apply_discount
@@ -30,13 +30,13 @@ end
 
 def hash_with_cant
 	hash=Hash.new(0)
-	@list.each{|elem| hash[elem.cod]+=1 }
+	@products.each{|elem| hash[elem.code]+=1 }
 	hash
 end
 
 def hash_with_price
 	hash=Hash.new(0)
-	@list.each{|elem| hash[elem.cod]=elem.price}
+	@products.each{|elem| hash[elem.code]=elem.price}
 	hash
 end
 

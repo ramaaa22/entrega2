@@ -1,3 +1,5 @@
+require_relative 'serpiente'
+
 class Cobra < Serpiente
 
 def morder
